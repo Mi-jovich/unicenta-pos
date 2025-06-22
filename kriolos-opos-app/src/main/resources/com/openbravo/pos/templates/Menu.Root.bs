@@ -153,6 +153,10 @@ group = menu.addGroup("Menu.Backoffice");
         submenu.addPanel("/com/openbravo/images/reports.png", "Menu.Tools.MissingData", "/com/openbravo/reports/tools_missingdata.bs");
         submenu.addPanel("/com/openbravo/images/reports.png", "Menu.Tools.InvalidData", "/com/openbravo/reports/tools_invaliddata.bs");
 
+
+    group = menu.addGroup("Menu.UserManuals");
+        group.addPanel("/com/openbravo/images/reports.png", "Menu.UserManuals", "com.openbravo.pos.manuals.JPanelManualViewer");
+
     group = menu.addGroup("Menu.System");
     group.addChangePasswordAction();
     group.addPanel("/com/openbravo/images/configuration.png", "Menu.Configuration", "com.openbravo.pos.config.JPanelConfiguration");
