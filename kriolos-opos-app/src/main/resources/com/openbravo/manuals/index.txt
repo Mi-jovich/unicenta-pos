@@ -1,0 +1,2 @@
+manual-en.pdf=Sample Manual (EN)
+manual-pt.pdf=Manual de Exemplo (PT)
